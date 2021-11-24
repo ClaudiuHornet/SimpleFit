@@ -1,5 +1,5 @@
 # SimpleFit
-My simple and effective fitness application for Android Development Course
+My simple and effective fitness application for Android Development Course.
 Considering my athletic background the idea of making a fitness app excites me. Here you have a list of the requirements sorted by priority.
 
 
