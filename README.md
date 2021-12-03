@@ -1,4 +1,4 @@
-# SimpleFit<br/
+# SimpleFit
 My simple fitness application for Android Development Course.<br/>
 The motivation behind the choice is my athletic background which can provide some insights from my experience with organising and planning training for me or other people. The target is to create an intuitive and simple application where you can store all your relevant data about training and also find other useful features that can help in different situations. Here you have a list of the requirements sorted by priority.<br/>
 <br/>
