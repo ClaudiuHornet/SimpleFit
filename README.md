@@ -1,7 +1,9 @@
-# SimpleFit
-My simple fitness application for Android Development Course.
-The motivation behind the choice is my athletic background which can provide some insights from my experience with organising and planning training for me or other people. The target is to create an intuitive and simple application where you can store all your relevant data about training and also find other useful features that can help in different situations. Here you have a list of the requirements sorted by priority.
-
+# SimpleFit<br/
+My simple fitness application for Android Development Course.<br/>
+The motivation behind the choice is my athletic background which can provide some insights from my experience with organising and planning training for me or other people. The target is to create an intuitive and simple application where you can store all your relevant data about training and also find other useful features that can help in different situations. Here you have a list of the requirements sorted by priority.<br/>
+<br/>
+Youtube link: https://youtu.be/1MWXJbHFN9w <br/>
+<br/>
 Implemented (7/11):
 1. As a User, I want to be able to create an account in order to store my data.
 2. As a User, I want to be able to login into my account in order to access the app.
@@ -10,7 +12,7 @@ Implemented (7/11):
 5. As a User, I want to be able to register my workouts in the app in order to organize my training.
 6. As a User, I want to be able to delete an exercise from a workout.
 7. As a User, I want to be able to delete a workout in the app.<br/>
-Not implemented:
+<br/>Not implemented:
 8. As a User, I want to be able to search for different exercises in the app in order to find inspiration.
 9. As a User, I want to find the exercises sorted for different muscles groups in order to know what exercise to use.
 10. As a User, I want to see my score based on my progress and my workouts in order to compare it with my friends.
