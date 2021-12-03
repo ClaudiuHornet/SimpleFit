@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.bodyData.AddBodyDataFragment">
+
+    <LinearLayout
+        android:layout_width="307dp"
+        android:layout_height="643dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492"
+        tools:context=".ui.fragments.accounts.AddAccountFragment">
+
+        <TextView
+            android:id="@+id/addWeightTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Weight"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/addWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_your_weight"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <TextView
+            android:id="@+id/addWeightError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_cannot_be_empty"
+            android:textAlignment="center"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/addArmMeasurementTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/arm_measurement"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/addArmMeasurement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_arm_measurement"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <TextView
+            android:id="@+id/addArmMeasurementError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/measurement_cannot_be_empty"
+            android:textAlignment="center"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/addChestMeasurementTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/chest_measurement"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/addChestMeasurement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_chest_measurement"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <TextView
+            android:id="@+id/addChestMeasurementError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/measurement_cannot_be_empty"
+            android:textAlignment="center"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/addWaistMeasurementTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/waist_measurement"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/addWaistMeasurement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_waist_measurement"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <TextView
+            android:id="@+id/addWaistMeasurementError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/measurement_cannot_be_empty"
+            android:textAlignment="center"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/addLegMeasurementTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/leg_measurement"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/addLegMeasurement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_leg_measurement"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <TextView
+            android:id="@+id/addLegMeasurementError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/measurement_cannot_be_empty"
+            android:textAlignment="center"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/addDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/date"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/addDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="@string/enter_date"
+            android:ems="10"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/addDateError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_cannot_be_empty"
+            android:textAlignment="center"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/finishButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/purple_500"
+            android:text="@string/Finish"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

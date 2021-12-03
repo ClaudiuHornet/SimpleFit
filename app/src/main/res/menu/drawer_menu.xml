@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/workoutListFragment"
+        android:title="Workouts"/>
+
+    <item
+        android:id="@+id/bodyDataListFragment"
+        android:title="Body Data"/>
+
+    <item
+        android:id="@+id/website"
+        android:title="Website"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"/>
+    <item android:id="@+id/logoutAction"
+        android:title="Log-out" />
+</menu>

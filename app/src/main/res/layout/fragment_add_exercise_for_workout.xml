@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.workouts.AddExerciseForWorkoutFragment">
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="353dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".ui.fragments.accounts.AddAccountFragment">
+
+        <TextView
+            android:id="@+id/addNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/name"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/addNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_your_name"
+            android:inputType="text"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <TextView
+            android:id="@+id/addNameError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_cannot_be_empty"
+            android:textAlignment="center"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/addSetsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Sets"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/addSetsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_sets"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <TextView
+            android:id="@+id/addSetsError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sets_cannot_be_empty"
+            android:textAlignment="center"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/addRepsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Reps"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/addRepsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_reps"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <TextView
+            android:id="@+id/addRepsError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reps_cannot_be_empty"
+            android:textAlignment="center"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/addExerciseToWorkoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/purple_500"
+            android:text="@string/addExercise"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

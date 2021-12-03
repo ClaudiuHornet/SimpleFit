@@ -1,3 +1,56 @@
 <resources>
     <string name="app_name">SimpleFit</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Login</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="register">Register</string>
+    <string name="new_member">New member?</string>
+    <string name="name">Name</string>
+    <string name="signIn">Sign In</string>
+    <string name="motivation">motivation</string>
+
+    <string name="Weight">Weight (kg)</string>
+    <string name="enter_your_weight">Enter your weight</string>
+    <string name="weight_cannot_be_empty">Weight field cannot be empty</string>
+    <string name="arm_measurement">Arm (cm)</string>
+    <string name="enter_arm_measurement">Enter your arm measurement</string>
+    <string name="measurement_cannot_be_empty">Measurement cannot be empty</string>
+    <string name="Finish">Finish</string>
+    <string name="enter_chest_measurement">Enter you chest measurement</string>
+    <string name="enter_waist_measurement">Enter your waist measurement</string>
+    <string name="waist_measurement">Waist (cm)</string>
+    <string name="chest_measurement">Chest (cm)</string>
+    <string name="leg_measurement">Leg (cm)</string>
+    <string name="enter_leg_measurement">Enter your thigh measurement</string>
+    <string name="date">Date</string>
+    <string name="date_cannot_be_empty">Date cannot be empty</string>
+    <string name="enter_date">Date of measurements</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_measurement">Add Measurement</string>
+    <string name="enter_your_name">Name of your exercise</string>
+    <string name="name_cannot_be_empty">Name cannot be empty</string>
+    <string name="Sets">Sets</string>
+    <string name="enter_sets">Enter how many sets</string>
+    <string name="sets_cannot_be_empty">Sets cannot be empty</string>
+    <string name="Reps">Reps</string>
+    <string name="enter_reps">Enter how many reps</string>
+    <string name="reps_cannot_be_empty">Reps cannot be empty</string>
+    <string name="addExercise">Add Exercise</string>
+    <string name="enter_workout_name">Enter workout name</string>
+    <string name="delete_workout">Delete Workout</string>
+    <string name="add_workout">Add Workout</string>
+    <string name="open_workout">open</string>
+    <string name="Create">Create</string>
+    <string name="button_text_done">Done</string>
+    <string name="back">Back</string>
 </resources>

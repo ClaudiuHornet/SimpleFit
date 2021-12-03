@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav.xml"
+    app:startDestination="@id/workoutListFragment">
+    <fragment
+        android:id="@+id/workoutListFragment"
+        android:name="com.example.android.simplefit.ui.fragments.workouts.WorkoutListFragment"
+        android:label="Workouts"
+        tools:layout="@layout/fragment_workout_list">
+        <action
+            android:id="@+id/action_workoutListFragment_to_workoutViewFragment"
+            app:destination="@id/workoutViewFragment" />
+        <action
+            android:id="@+id/action_workoutListFragment_to_createWorkoutNameFragment"
+            app:destination="@id/createWorkoutNameFragment" />
+        <action
+            android:id="@+id/action_workoutListFragment_to_bodyDataListFragment"
+            app:destination="@id/bodyDataListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addWorkoutFragment"
+        android:name="com.example.android.simplefit.ui.fragments.workouts.AddWorkoutExercisesFragment"
+        android:label="fragment_add_workout"
+        tools:layout="@layout/fragment_add_workout_exercises" >
+        <action
+            android:id="@+id/action_addWorkoutFragment_to_addExerciseForWorkoutFragment"
+            app:destination="@id/addExerciseForWorkoutFragment" />
+        <action
+            android:id="@+id/action_addWorkoutFragment_to_workoutListFragment"
+            app:destination="@id/workoutListFragment" />
+        <argument
+            android:name="workout_id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/addExerciseForWorkoutFragment"
+        android:name="com.example.android.simplefit.ui.fragments.workouts.AddExerciseForWorkoutFragment"
+        android:label="fragment_add_exercise_for_workout"
+        tools:layout="@layout/fragment_add_exercise_for_workout" >
+        <action
+            android:id="@+id/action_addExerciseForWorkoutFragment_to_addWorkoutFragment"
+            app:destination="@id/addWorkoutFragment" />
+        <argument
+            android:name="workout_id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/workoutViewFragment"
+        android:name="com.example.android.simplefit.ui.fragments.workouts.WorkoutViewFragment"
+        android:label="fragment_workout_view"
+        tools:layout="@layout/fragment_workout_view" >
+        <action
+            android:id="@+id/action_workoutViewFragment_to_workoutListFragment"
+            app:destination="@id/workoutListFragment" />
+        <argument
+            android:name="workout_id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/bodyDataListFragment"
+        android:name="com.example.android.simplefit.ui.fragments.bodyData.BodyDataListFragment"
+        android:label="Body Data"
+        tools:layout="@layout/fragment_body_data_list">
+        <action
+            android:id="@+id/action_bodyDataListFragment_to_addBodyDataFragment"
+            app:destination="@id/addBodyDataFragment" />
+        <action
+            android:id="@+id/action_bodyDataListFragment_to_bodyDataViewFragment"
+            app:destination="@id/bodyDataViewFragment" />
+        <action
+            android:id="@+id/action_bodyDataListFragment_to_workoutListFragment"
+            app:destination="@id/workoutListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addBodyDataFragment"
+        android:name="com.example.android.simplefit.ui.fragments.bodyData.AddBodyDataFragment"
+        android:label="Add BodyData"
+        tools:layout="@layout/fragment_add_body_data">
+        <action
+            android:id="@+id/action_addBodyDataFragment_to_bodyDataListFragment"
+            app:destination="@id/bodyDataListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bodyDataViewFragment"
+        android:name="com.example.android.simplefit.ui.fragments.bodyData.BodyDataViewFragment"
+        android:label="BodyData View"
+        tools:layout="@layout/fragment_body_data_view">
+        <action
+            android:id="@+id/action_bodyDataViewFragment_to_bodyDataListFragment"
+            app:destination="@id/bodyDataListFragment" />
+        <argument
+            android:name="bodyData"
+            app:argType="com.example.android.simplefit.models.db.BodyData" />
+    </fragment>
+    <fragment
+        android:id="@+id/createWorkoutNameFragment"
+        android:name="com.example.android.simplefit.ui.fragments.workouts.CreateWorkoutNameFragment"
+        android:label="fragment_create_workout_name"
+        tools:layout="@layout/fragment_create_workout_name" >
+        <action
+            android:id="@+id/action_createWorkoutNameFragment_to_addWorkoutFragment"
+            app:destination="@id/addWorkoutFragment" />
+    </fragment>
+</navigation>
